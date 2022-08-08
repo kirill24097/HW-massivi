@@ -3,8 +3,8 @@ public class Main {
         int[] arr = generateRandomArray();
 
         int sum = 0;
-        for (int j : arr) {
-            sum = sum + j;
+        for (int daySuumma : arr) {
+            sum = sum + daySuumma;
         }
             System.out.println("Сумма трат за месяц составила   " + sum + "   рублей");
 
